@@ -6,4 +6,4 @@ RUN npm install &&\
     apk update &&\
     apk upgrade
 EXPOSE  4000
-CMD node:20.8-bookworm-slim
+CMD node 20.8-bookworm-slim
